@@ -1,0 +1,30 @@
+KHÁI_NIỆM_BASIC GIT vs GITHUP
+Phần I, Phân biệt git vs gihup
+1.a, Git là gì ?
+  - Git còn được gọi là Distributed Version Control System (DVCS) hay VCS, là một hệ thống quản lý phiên bản phân tán ra đời vào năm 2005
+  - Git là một hệ thống quản lý phiên bản mã nguồn. Nó cho phép lưu trữ, theo dõi và quản lý lịch sử thay đổi của mã nguồn. 
+    Git là công cụ phổ biến được cài đặt trên máy tính cá nhân của người dùng để làm việc với các repository (kho chứa mã nguồn).
+1.b Githup là gì
+  - GitHub là một dịch vụ lưu trữ mã nguồn (source code) trực tuyến dựa trên nền tảng Git. Nó cung cấp một nền tảng cho 
+    các nhà phát triển phát triển, quản lý và theo dõi mã nguồn của dự án phần mềm. Dịch vụ này cho phép các nhóm phát 
+    triển làm việc cùng nhau trên các dự án phần mềm từ xa và theo dõi lịch sử của mã nguồn.
+
+    (*-*) -> More information about git
+    Link_1. https://vinahost.vn/github-la-gi/
+    Link_2 . https://fptshop.com.vn/tin-tuc/danh-gia/git-la-gi-169819#:~:text=tri%E1%BB%83n%20ph%E1%BA%A7n%20m%E1%BB%81m.-,2.%20Ph%C3%A2n%20bi%E1%BB%87t%20Git%20v%C3%A0%20GitHub,-Nh%C6%B0%20%C4%91%C3%A3%20gi%E1%BA%A3i
+    => Như vậy 
+      . git là công cụ lưu trữ, theo dõi và quản lý lịch sử thay đổi của mã nguồn
+      . gihup là là một dịch vụ lưu trữ mã nguồn (source code) trực tuyến dựa trên nền tảng Git
+
+
+CÁC LỆNH GIT CƠ BẢN (https://fptshop.com.vn/tin-tuc/danh-gia/git-la-gi-169819#:~:text=repository%20m%C3%A3%20ngu%E1%BB%93n.-,3.%20C%C3%A1c%20l%E1%BB%87nh%20Git%20c%C6%A1%20b%E1%BA%A3n,-3.1.%20Git%20init)
+1, git clone ;
+    _ git Clone là một lệnh trong hệ thống Git cho phép các lập trình viên sao chép một kho chứa từ xa (Remote Repo) về máy 
+      tính cá nhân (Local)  VD, git clone https://github.com/Tuan-goku0901/Railway_82_Repository.git
+    _ lưu ý : https://github.com/Tuan-goku0901/Railway_82_Repository.git là url kho lưu trữ trên github
+2 git status ; Kiểm tra trạng thái của file đã/có thay đổi trong thư mục.
+3 git commit -m ""; comment lại nội dung hoặc định nghĩa rõ nội dung của file đó
+    VD, ta có file tên là index.html
+    git commit -m "đây là file index.html"
+4 git add . thêm tất cả file trong thư mục dấu . nằm sau lệnh git add nghĩa là lấy tất cả các file có trong thu mục
+5 git push ; git push được sử dụng để đẩy (push) các commit và thay đổi từ máy tính của bạn lên một remote repository
